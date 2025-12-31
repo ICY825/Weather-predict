@@ -10,3 +10,31 @@ Bài toán dự đoán nhiệt độ theo ngày đóng vai trò quan trọng tro
 * Huấn luyện và đánh giá mô hình Machine Learning/Deep Learning (ví dụ: Linear Regression, LSTM, ARIMA).
 * Triển khai demo dự đoán (inference) nhiệt độ cho các ngày tiếp theo dựa trên dữ liệu mới.
 * So sánh và đánh giá hiệu quả mô hình bằng các metric phù hợp (MAE, MSE, RMSE).
+
+## 2. Dataset
+
+* Bộ dữ liệu thời tiết của Hà Nội từ năm 2015-2025
+Kaggle: https://www.kaggle.com/datasets/thor1407/weather-daily-data-1102015-2025
+
+## 3. Pipline
+
+* Dataset → EDA → Clean → Encode → Train → Evaluate → Inference
+
+## 4. Mô hình sử dụng
+
+* Linear Regression
+* Random Forest
+* Long Shot-Term Memory 
+
+### Kết quả
+
+* Long Short-Term Memory
+    * RMSE: 1.5854356651939232
+    * MAE: 1.235079885908395
+* Random Forest
+    * RMSE: 1.7122
+    * MAE: 1.2351
+* Linear Regression
+    * RMSE: 1.5849
+    * MAE: 1.2351
+    
