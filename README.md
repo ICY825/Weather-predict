@@ -38,3 +38,17 @@ Kaggle: https://www.kaggle.com/datasets/thor1407/weather-daily-data-1102015-2025
     * RMSE: 1.5849
     * MAE: 1.2351
     
+## 5. Cách chạy chương trình
+* B1: Tạo môi trường venv python 3.10.x
+* B2: activate môi trường
+* B3: chạy lệnh "pip install -r requirment.txt"
+
+
+### Demo 
+* streamlit run app/app1.py
+
+
+## Tác giả
+* Lê Tuấn Minh
+* Mã sinh viên: 12523054
+* Mã lớp: 12423TN
